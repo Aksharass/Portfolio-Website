@@ -5,7 +5,7 @@ import { X } from "lucide-react"; // Optional close button (icon)
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 // Update these paths as needed:
-import resumeImage from "../assets/Resume_img.PNG";
+import resumeImage from "../assets/resumeimg.PNG";
 import resumePDF from "../assets/Resume.pdf";
 
 export default function Home() {
