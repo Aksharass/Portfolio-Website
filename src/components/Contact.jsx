@@ -18,10 +18,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_qpv3ln2",      // replace with actual ID
-        "template_j6ji2zj",     // replace with actual ID
+        "service_qpv3ln2", // replace with actual ID
+        "template_j6ji2zj", // replace with actual ID
         form.current,
-        "312nfiGKe9Yf_H5_9"       // replace with actual key
+        "312nfiGKe9Yf_H5_9" // replace with actual key
       )
       .then(
         () => {
@@ -52,45 +52,43 @@ const Contact = () => {
           </p>
         </_motion.div>
 
-        {/* Grid */}
+        {/* Grid for larger screens */}
         <div className="grid md:grid-cols-2 items-start gap-x-6 gap-y-10">
 
-
+          {/* Left Column - Contact Info */}
           <_motion.div
             {...fadeIn("up", 0.2)}
-            className="flex flex-col  h-full"
+            className="flex flex-col space-y-4 ml-10 md:ml-40 mt-4 sm:mt-0 self-start"
           >
-            <div className="flex flex-col space-y-4 ml-40 mt-20 self-start">
-              <div className="flex items-center gap-3">
-                <MapPin className="text-cyan-400" />
-                <span className="text-gray-300">Kanyakumari, India</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Github className="text-cyan-400" />
-                <a
-                  href="https://github.com/Aksharass"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-cyan-400 transition"
-                >
-                  github.com/Aksharass
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
-                <Linkedin className="text-cyan-400" />
-                <a
-                  href="https://www.linkedin.com/in/akshara-s-s/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-cyan-400 transition"
-                >
-                  linkedin.com/in/akshara-s-s
-                </a>
-              </div>
+            <div className="flex items-center gap-3">
+              <MapPin className="text-cyan-400" />
+              <span className="text-gray-300">Kanyakumari, India</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <Github className="text-cyan-400" />
+              <a
+                href="https://github.com/Aksharass"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-cyan-400 transition"
+              >
+                github.com/Aksharass
+              </a>
+            </div>
+            <div className="flex items-center gap-3">
+              <Linkedin className="text-cyan-400" />
+              <a
+                href="https://www.linkedin.com/in/akshara-s-s/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-cyan-400 transition"
+              >
+                linkedin.com/in/akshara-s-s
+              </a>
             </div>
           </_motion.div>
 
-          {/* Feedback Form */}
+          {/* Right Column - Feedback Form */}
           <_motion.form
             ref={form}
             onSubmit={sendEmail}
