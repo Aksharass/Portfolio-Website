@@ -29,7 +29,7 @@ const projects = [
     image: masterfood,
     github: "https://github.com/Aksharass/Master-foods",
     preview: "https://master-foods.vercel.app/",
-    desc: "An interactive food application that allows users to search and explore recipes, ingredients, and nutrition information. Built with a clean and responsive UI for seamless user experience across devices.",
+    desc: "A responsive food app for exploring recipes, ingredients, and nutrition details with a clean React.js interface.",
     skills: "React.js, Tailwind CSS",
   },
 ];
