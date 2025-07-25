@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion as _motion, AnimatePresence } from "framer-motion";
-import TypeAnimation from "react-type-animation"; // ✅ Correct import
-import { X } from "lucide-react"; // Optional close button (icon)
+import TypeAnimation from "react-type-animation"; // 
+import { X } from "lucide-react"; 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 // Update these paths as needed:

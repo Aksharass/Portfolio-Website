@@ -3,7 +3,7 @@ import { motion as _motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { ExternalLink } from "lucide-react";
 
-import weatherapp from "../assets/Project/weatherapp.PNG";
+import masterfood from "../assets/Project/masterfood.PNG";
 import ecomreactapp from "../assets/Project/e-com-react.PNG";
 import movieapp from "../assets/Project/movieapp.PNG";
 
@@ -25,12 +25,12 @@ const projects = [
     skills: "React.js, TMDB API, Tailwind CSS",
   },
   {
-    title: "Weather App",
-    image: weatherapp,
-    github: "https://github.com/Aksharass/Weather-app",
-    preview: "https://weather-app-coral-iota-96.vercel.app/",
-    desc: "Displays real-time weather data based on user input. Designed with a clean and responsive UI using CSS Modules.",
-    skills: "React.js, OpenWeather API, CSS Modules",
+    title: "Master Food Website",
+    image: masterfood,
+    github: "https://github.com/Aksharass/Master-foods",
+    preview: "https://master-foods.vercel.app/",
+    desc: "An interactive food application that allows users to search and explore recipes, ingredients, and nutrition information. Built with a clean and responsive UI for seamless user experience across devices.",
+    skills: "React.js, Tailwind CSS",
   },
 ];
 
