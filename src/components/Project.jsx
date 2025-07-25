@@ -14,7 +14,7 @@ const projects = [
     github: "https://github.com/Aksharass/E-commerce-website",
     preview: "https://e-commerce-website-a9ez.vercel.app/",
     desc: "Built a responsive e-commerce store with cart functionality. Integrated Stripe for secure online payments.",
-    skills: "React.js, Tailwind CSS, Stripe API",
+    skills: "React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Stripe API",
   },
   {
     title: "Movie App",
