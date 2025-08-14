@@ -5,14 +5,13 @@ import { X } from "lucide-react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 // Update these paths as needed:
-import resumeImage from "../assets/resumeimg.PNG";
-import resumePDF from "../assets/Resume.pdf";
+import resumePDF from "../assets/Akshara_Resume.pdf"; // Path to your resume PDF
 
 export default function Home() {
     const [showResume, setShowResume] = useState(false);
 
     return (
-        <div className="bg-black text-white py-20 px-4 text-white min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div className=" py-20 px-4 text-white min-h-screen flex items-center justify-center relative overflow-hidden">
             <div className="max-w-6xl mx-auto px-6 md:flex md:items-center md:justify-between w-full">
                 {/* Left Side */}
                 <div className="md:w-1/2 text-center md:text-left">
@@ -118,12 +117,13 @@ export default function Home() {
                             {/* Heading */}
                             <h2 className="text-center text-lg font-bold mt-8 mb-4">My Resume</h2>
 
-                            {/* Resume Image */}
-                            <div className="flex-1 overflow-auto px-4 pb-4 flex items-center justify-center">
-                                <img
-                                    src={resumeImage}
-                                    alt="Resume"
-                                    className="rounded-lg border border-gray-700 shadow-lg"
+                            {/* Resume PDF Viewer */}
+                            <div className="flex-1 px-4 pb-4 flex items-center justify-center overflow-hidden">
+                                <iframe
+                                    src={resumePDF}
+                                    title="Resume PDF"
+                                    className="w-full h-[75vh] rounded-lg border border-gray-700 shadow-lg"
+                                    style={{ overflow: "hidden" }}
                                 />
                             </div>
 

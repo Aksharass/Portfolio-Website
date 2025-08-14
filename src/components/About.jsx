@@ -22,7 +22,7 @@ const aboutItems = [
 
 export default function About() {
   return (
-    <section className="bg-black text-white py-20 px-5">
+    <section className=" text-white py-20 px-5">
       <div className="max-w-4xl mx-auto text-center">
         <_motion.h2
           initial={{ opacity: 0, y: -20 }}

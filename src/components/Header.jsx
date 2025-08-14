@@ -56,6 +56,15 @@ export default function Header() {
           </li>
           <li>
             <a
+              href="#qualification"
+              className="px-5 relative transition-all duration-300 hover:text-blue-400 hover:scale-105 font-semibold"
+            >
+              Qualification
+              <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 ease-out group-hover:w-full"></span>
+            </a>
+          </li>
+          <li>
+            <a
               href="#contact"
               className="px-5 relative transition-all duration-300 hover:text-blue-400 hover:scale-105 font-semibold"
             >
@@ -63,6 +72,7 @@ export default function Header() {
               <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 ease-out group-hover:w-full"></span>
             </a>
           </li>
+          
         </ul>
 
         {/* Mobile Menu Button */}
@@ -107,6 +117,11 @@ export default function Header() {
           <li><a href="#skills" onClick={() => setIsOpen(false)} className="block hover:text-gray-300">Skill</a></li>
           <li><a href="#projects" onClick={() => setIsOpen(false)} className="block hover:text-gray-300">Project</a></li>
           <li><a href="#contact" onClick={() => setIsOpen(false)} className="block hover:text-gray-300">Contact</a></li>
+          <li>
+            <a href="#qualification" onClick={() => setIsOpen(false)} className="block hover:text-gray-300">
+              Qualification
+            </a>
+          </li>
         </ul>
       </_motion.div>
     </nav>

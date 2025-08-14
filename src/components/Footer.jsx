@@ -79,6 +79,9 @@ export default function Footer() {
                         <a href="#projects" className="hover:underline hover:text-gray-400 transition duration-300">
                             Project
                         </a>
+                        <a href="#qualification" className="hover:underline hover:text-gray-400 transition duration-300">
+                            Qualification
+                        </a>
                     </div>
 
                     {/* Copyright */}

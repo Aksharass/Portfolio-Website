@@ -20,7 +20,7 @@ const skills = {
     { name: "Tailwind", icon: <SiTailwindcss className="text-cyan-300" />, url: "https://tailwindcss.com/" },
     { name: "Bootstrap", icon: <FaBootstrap className="text-indigo-300" />, url: "https://getbootstrap.com/" },
     { name: "Redux", icon: <SiRedux className="text-purple-500" />, url: "https://redux.js.org/" },
-    { name: "jQuery", icon: <SiJquery className="text-blue-kkkkkkkkkkkkkkkkk00" />, url: "https://jquery.com/" },
+    { name: "jQuery", icon: <SiJquery className="text-blue-300" />, url: "https://jquery.com/" },
   ],
   Backend: [
     { name: "Node.js", icon: <FaNodeJs className="text-green-400" />, url: "https://nodejs.org/" },
@@ -75,7 +75,7 @@ const SkillCard = ({ icon, name, url }) => (
 
 const Skills = () => {
   return (
-    <section className="bg-black text-white py-20 px-4" id="skills">
+    <section className=" text-white py-20 px-4" id="skills">
       <div className="max-w-7xl mx-auto">
         <_motion.h2
           className="text-4xl font-bold text-center mb-16  text-accent"

@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-black text-white py-20 px-6 md:px-12">
+    <section id="contact" className=" text-white py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
 
         {/* Heading & Top Content */}

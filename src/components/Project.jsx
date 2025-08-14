@@ -6,8 +6,19 @@ import { ExternalLink } from "lucide-react";
 import masterfood from "../assets/Project/masterfood.PNG";
 import ecomreactapp from "../assets/Project/e-com-react.PNG";
 import movieapp from "../assets/Project/movieapp.PNG";
+import jobportal from "../assets/Project/jobportal.PNG";
+import weatherapp from "../assets/Project/weatherapp.PNG";
+import atmcard from "../assets/Project/atm.PNG";
 
 const projects = [
+    {
+  title: "Job Portal Website",
+  image: jobportal, 
+  github: "https://github.com/Aksharass/job-portal", 
+  preview: "https://job-portal-ashy-one.vercel.app/login/", 
+  desc: "A full-stack job portal with role-based access for Admin, Employer, and Job Seeker, enabling job postings, applications, and admin moderation.",
+  skills: "React.js, Node.js, Express.js, MongoDB, Tailwind CSS",
+},
   {
     title: "E-commerce Site",
     image: ecomreactapp,
@@ -32,11 +43,29 @@ const projects = [
     desc: "A responsive food app for exploring recipes, ingredients, and nutrition details with a clean React.js interface.",
     skills: "React.js, Tailwind CSS",
   },
+
+{
+  title: "Weather App",
+  image: weatherapp,
+  github: "https://github.com/Aksharass/Weather-app",
+  preview: "https://weather-app-coral-iota-96.vercel.app/",
+  desc: "A real-time weather application that fetches accurate weather data for any location using the OpenWeather API.",
+  skills: "HTML, CSS, JavaScript, Bootstrap",
+},
+{
+  title: "ATM Card",
+  image: atmcard,
+  github: "https://github.com/Aksharass/atm-card",
+  preview: "https://atm-card-seven.vercel.app/",
+  desc: "A modern and responsive digital card interface designed for showcasing personal and professional information in a stylish format.",
+  skills: "HTML, CSS, JavaScript, Bootstrap",
+},
+
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-black py-20 px-4 text-white">
+    <section id="projects" className=" py-20 px-4 text-white">
       <_motion.h2
         className="text-4xl font-bold text-center mb-12 text-accent"
         initial={{ opacity: 0, y: -30 }}
