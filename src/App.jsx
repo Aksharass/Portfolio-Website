@@ -17,7 +17,7 @@ function App() {
     <>
 <Header />
 
-<main className="bg-gradient-to-br from-black via-black via-30% via-slate-900 to-sky-900">
+<main className="bg-gradient-to-br from-black via-black via-slate-900 to-sky-900">
   <section id="home">
     <Home />
   </section>
